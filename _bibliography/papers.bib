@@ -1,16 +1,15 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
 @article{Abbood2022evaluation_framework,
   author       = {Abbood, Auss and Ghozzi, St{\'e}phane},
   title        = {General Framework for Evaluating Outbreak Prediction, Detection, and Annotation Algorithms},
   elocation-id = {2022.03.16.22272469},
   year         = {2022},
+  month        = {3},
   doi          = {10.1101/2022.03.16.22272469},
   publisher    = {Cold Spring Harbor Laboratory Press},
-  abstract     = {The COVID-19 pandemic has highlighted and accelerated the use of algorithmic-decision support for public health. The latter{\textquoteright}s potential impact and risk of bias and harm urgently call for scrutiny and evaluation standards. One example is the early detection of local infectious disease outbreaks. Whereas many statistical models have been proposed and disparate systems are routinely used, each tai-lored to specific data streams and use, no systematic evaluation strategy of their performance in a real-world context exists.One difficulty in evaluating outbreak prediction, detection, or annotation lies in the scales of different approaches: How to compare slow but fine-grained genetic clustering of individual samples with rapid but coarse anomaly detection based on aggregated syndromic reports? Or alarms generated for different, overlapping geographical regions or demographics?We propose a general, data-driven, user-centric framework for evaluating hetero-geneous outbreak algorithms. Discrete outbreak labels and case counts are defined on a custom data grid, associated target probabilities are then computed and compared with algorithm output. The latter is defined as discrete {\textquotedblleft}signals{\textquotedblright} are generated for a number of grid cells (the finest available in the benchmarking data set) with different weights and prior outbreak information from which then estimated outbreak label probabilities are derived. The prediction performance is quantified through a series of metrics, including confusion matrix, regression scores, and mutual information. The dimensions of the data grid can be weighted by the user to reflect epidemiological criteria.Competing Interest StatementThe authors have declared no competing interest.Funding StatementThis study did not receive any specific funding.Author DeclarationsI confirm all relevant ethical guidelines have been followed, and any necessary IRB and/or ethics committee approvals have been obtained.YesI confirm that all necessary patient/participant consent has been obtained and the appropriate institutional forms have been archived, and that any patient/participant/sample identifiers included were not known to anyone (e.g., hospital staff, patients or participants themselves) outside the research group so cannot be used to identify individuals.YesI understand that all clinical trials and any other prospective interventional studies must be registered with an ICMJE-approved registry, such as ClinicalTrials.gov. I confirm that any such study reported in the manuscript has been registered and the trial registration ID is provided (note: if posting a prospective study registered retrospectively, please provide a statement in the trial ID field explaining why the study was not registered in advance).Yes I have followed all appropriate research reporting guidelines and uploaded the relevant EQUATOR Network research reporting checklist(s) and other pertinent material as supplementary files, if applicable.YesNo data is part of this work.},
+  abstract     = {The COVID-19 pandemic has highlighted and accelerated the use of algorithmic-decision support for public health. The latter{\textquoteright}s potential impact and risk of bias and harm urgently call for scrutiny and evaluation standards. One example is the early detection of local infectious disease outbreaks. Whereas many statistical models have been proposed and disparate systems are routinely used, each tai-lored to specific data streams and use, no systematic evaluation strategy of their performance in a real-world context exists.One difficulty in evaluating outbreak prediction, detection, or annotation lies in the scales of different approaches: How to compare slow but fine-grained genetic clustering of individual samples with rapid but coarse anomaly detection based on aggregated syndromic reports? Or alarms generated for different, overlapping geographical regions or demographics?We propose a general, data-driven, user-centric framework for evaluating hetero-geneous outbreak algorithms. Discrete outbreak labels and case counts are defined on a custom data grid, associated target probabilities are then computed and compared with algorithm output. The latter is defined as discrete {\textquotedblleft}signals{\textquotedblright} are generated for a number of grid cells (the finest available in the benchmarking data set) with different weights and prior outbreak information from which then estimated outbreak label probabilities are derived. The prediction performance is quantified through a series of metrics, including confusion matrix, regression scores, and mutual information. The dimensions of the data grid can be weighted by the user to reflect epidemiological criteria.},
   url          = {https://www.medrxiv.org/content/early/2022/03/21/2022.03.16.22272469},
   eprint       = {https://www.medrxiv.org/content/early/2022/03/21/2022.03.16.22272469.full.pdf},
   journal      = {medRxiv},
@@ -29,6 +28,7 @@
   number       = {1},
   elocation-id = {e061717},
   year         = {2023},
+  month        = {1},
   doi          = {10.1136/bmjopen-2022-061717},
   publisher    = {British Medical Journal Publishing Group},
   abstract     = {Objective Daily COVID-19 data reported by WHO may provide the basis for political ad hoc decisions including travel restrictions. Data reported by countries, however, are heterogeneous and metrics to evaluate its quality are scarce. In this work, we analysed COVID-19 case counts provided by WHO and developed tools to evaluate country-specific reporting behaviours.Methods In this retrospective cross-sectional study, COVID-19 data reported daily to WHO from 3 January 2020 until 14 June 2021 were analysed. We proposed the concepts of binary reporting rate and relative reporting behaviour and performed descriptive analyses for all countries with these metrics. We developed a score to evaluate the consistency of incidence and binary reporting rates. Further, we performed spectral clustering of the binary reporting rate and relative reporting behaviour to identify salient patterns in these metrics.Results Our final analysis included 222 countries and regions. Reporting scores varied between -0.17, indicating discrepancies between incidence and binary reporting rate, and 1.0 suggesting high consistency of these two metrics. Median reporting score for all countries was 0.71 (IQR 0.55{\textendash}0.87). Descriptive analyses of the binary reporting rate and relative reporting behaviour showed constant reporting with a slight {\textquoteleft}weekend effect{\textquoteright} for most countries, while spectral clustering demonstrated that some countries had even more complex reporting patterns.Conclusion The majority of countries reported COVID-19 cases when they did have cases to report. The identification of a slight {\textquoteleft}weekend effect{\textquoteright} suggests that COVID-19 case counts reported in the middle of the week may represent the best data basis for political ad hoc decisions. A few countries, however, showed unusual or highly irregular reporting that might require more careful interpretation. Our score system and cluster analyses might be applied by epidemiologists advising policy makers to consider country-specific reporting behaviours in political ad hoc decisions.Data are available in a public, open access repository. Extra data can be accessed via the Dryad data repository at http://datadryad.org/withthedoi:10.5061/dryad.9s4mw6mmb and from GitHub at https://github.com/aauss/reporting_behavior.},
@@ -38,7 +38,7 @@
   journal      = {BMJ Open},
   html         = {https://bmjopen.bmj.com/content/13/1/e061717},
   pdf          = {reporting_behavior_2022.pdf},
-  preview      = {healthaudit_2021.png},
+  preview      = {reporting_behavior_2022.png},
   altmetric    = {140983903},
   dimensions   = {true},
   code         = {https://github.com/aauss/reporting_behavior}
@@ -105,7 +105,6 @@
 }
 
 
-
 @article{abbood2020eventepi,
   abbr       = {PLOSCompBiol},
   doi        = {10.1371/journal.pcbi.1008277},
@@ -119,12 +118,37 @@
   url        = {https://doi.org/10.1371/journal.pcbi.1008277},
   html       = {https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008277},
   pages      = {1-16},
-  abstract   = {According to the World Health Organization (WHO), around 60% of all outbreaks are detected using informal sources. In many public health institutes, including the WHO and the Robert Koch Institute (RKI), dedicated groups of public health agents sift through numerous articles and newsletters to detect relevant events. This media screening is one important part of event-based surveillance (EBS). Reading the articles, discussing their relevance, and putting key information into a database is a time-consuming process. To support EBS, but also to gain insights into what makes an article and the event it describes relevant, we developed a natural language processing framework for automated information extraction and relevance scoring. First, we scraped relevant sources for EBS as done at the RKI (WHO Disease Outbreak News and ProMED) and automatically extracted the articles’ key data: disease, country, date, and confirmed-case count. For this, we performed named entity recognition in two steps: EpiTator, an open-source epidemiological annotation tool, suggested many different possibilities for each. We extracted the key country and disease using a heuristic with good results. We trained a naive Bayes classifier to find the key date and confirmed-case count, using the RKI’s EBS database as labels which performed modestly. Then, for relevance scoring, we defined two classes to which any article might belong: The article is relevant if it is in the EBS database and irrelevant otherwise. We compared the performance of different classifiers, using bag-of-words, document and word embeddings. The best classifier, a logistic regression, achieved a sensitivity of 0.82 and an index balanced accuracy of 0.61. Finally, we integrated these functionalities into a web application called EventEpi where relevant sources are automatically analyzed and put into a database. The user can also provide any URL or text, that will be analyzed in the same way and added to the database. Each of these steps could be improved, in particular with larger labeled datasets and fine-tuning of the learning algorithms. The overall framework, however, works already well and can be used in production, promising improvements in EBS. The source code and data are publicly available under open licenses.},
+  abstract   = {According to the World Health Organization (WHO), around 60{%} of all outbreaks are detected using informal sources. In many public health institutes, including the WHO and the Robert Koch Institute (RKI), dedicated groups of public health agents sift through numerous articles and newsletters to detect relevant events. This media screening is one important part of event-based surveillance (EBS). Reading the articles, discussing their relevance, and putting key information into a database is a time-consuming process. To support EBS, but also to gain insights into what makes an article and the event it describes relevant, we developed a natural language processing framework for automated information extraction and relevance scoring. First, we scraped relevant sources for EBS as done at the RKI (WHO Disease Outbreak News and ProMED) and automatically extracted the articles’ key data: disease, country, date, and confirmed-case count. For this, we performed named entity recognition in two steps: EpiTator, an open-source epidemiological annotation tool, suggested many different possibilities for each. We extracted the key country and disease using a heuristic with good results. We trained a naive Bayes classifier to find the key date and confirmed-case count, using the RKI’s EBS database as labels which performed modestly. Then, for relevance scoring, we defined two classes to which any article might belong: The article is relevant if it is in the EBS database and irrelevant otherwise. We compared the performance of different classifiers, using bag-of-words, document and word embeddings. The best classifier, a logistic regression, achieved a sensitivity of 0.82 and an index balanced accuracy of 0.61. Finally, we integrated these functionalities into a web application called EventEpi where relevant sources are automatically analyzed and put into a database. The user can also provide any URL or text, that will be analyzed in the same way and added to the database. Each of these steps could be improved, in particular with larger labeled datasets and fine-tuning of the learning algorithms. The overall framework, however, works already well and can be used in production, promising improvements in EBS. The source code and data are publicly available under open licenses.},
   number     = {11},
   altmetric  = {94671678},
   dimensions = {true},
   selected   = {true},
   pdf        = {eventepi.pdf},
   preview    = {eventepi.png},
-  code       = {https://github.com/aauss/EventEpi}
+  code       = {https://github.com/aauss/EventEpi},
 }
+
+@unpusblished{amld2020,
+  title   = {EventEpi—A natural language processing framework for event-based surveillance},
+  author  = {Abbood, Auss AND Ullrich, Alexander AND Busche, Rüdiger AND Ghozzi, Stéphane},
+  year    = {2020},
+  month      = {1},
+  note    = {Applied Machine Learning Days},
+  url     = {https://appliedmldays.org},
+  preview = {AMLD_2020_logo.svg.png},
+  pdf     = {EventEpi_poster_AMLD_2020.pdf}
+}
+
+@unpusblished{escaide2019,
+  title   = {Automatic information extraction and relevance evaluation of epidemiological texts using natural language processing},
+  author  = {Abbood, Auss AND Ullrich, Alexander AND Busche, Rüdiger AND Ghozzi, Stéphane},
+  year    = {2019},
+  month      = {11},
+  note    = {European Scientific Conference on Applied Infectious Disease Epidemiology},
+  url     = {https://www.escaide.eu/sites/default/files/documents/ESCAIDE-abstract-book-2019.pdf},
+  html    = {https://www.escaide.eu/sites/default/files/documents/ESCAIDE-abstract-book-2019.pdf},
+  preview = {logo-escaide.png},
+  pdf     = {event_epi_escaide2019.pdf}
+}
+
+% TODO: Add NeurIPS workshop,  EPIDEMICS 8
