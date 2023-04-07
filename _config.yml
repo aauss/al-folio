@@ -6,18 +6,17 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Auss
 middle_name:
 last_name: Abbood
-email: abbooda@rki.de
+email: contact@aussabbood.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Auss Abbood, Data Scientist and Project Lead at Robert Koch Institute. This is my personal website .
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: data science, machine learning, natural language processing, NLP, epidemiology, public health, outbreak detection, signal detection, time series, Robert Koch Institut, WHO, ITU, # add your own keywords or leave empty
-
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon_io/favicon.ico #*  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://aauss.github.io # the base hostname & protocol for your site
+url: https://www.aussabbood.com # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -40,7 +39,7 @@ repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
