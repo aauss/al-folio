@@ -9,12 +9,12 @@ first_name: Auss
 middle_name:
 last_name: Abbood
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Auss Abbood, Data Scientist and Project Lead at Robert Koch Institute. This is my personal website .
+  Auss Abbood, PhD student in Computation, Cognition and Language  at the Language Technology Lab at the University of Cambridge. Former Data Scientist and Project Lead at Robert Koch Institute. This is my personal website .
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: data science, machine learning, natural language processing, NLP, epidemiology, public health, outbreak detection, signal detection, time series, Robert Koch Institut, WHO, ITU, # add your own keywords or leave empty
+keywords: large language models, LLMs, PhD, event detection, signal detection, data science, machine learning, natural language processing, NLP, epidemiology, public health, outbreak detection, Robert Koch Institut, WHO, ITU, # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon_io/favicon.ico #*  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -27,10 +27,6 @@ back_to_top: true # set to false to disable the back to top button
 # -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
-
-# code highlighter theme
-highlight_theme_light: github # https://github.com/jwarby/jekyll-pygments-themes
-highlight_theme_dark: native # https://github.com/jwarby/jekyll-pygments-themes
 
 # repo color theme
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
@@ -54,9 +50,9 @@ rss_icon: false
 
 navbar_fixed: true
 footer_fixed: false
-search_enabled: true
+search_enabled: false
 socials_in_search: true
-bib_search: true
+bib_search: false
 
 # Dimensions
 max_width: 930px
@@ -158,12 +154,12 @@ collections:
     permalink: /:collection/:title/
 
 announcements:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 

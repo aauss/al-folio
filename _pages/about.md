@@ -2,14 +2,13 @@
 layout: about
 title: About
 permalink: /
-subtitle: Data Scientist and Project Lead at <a href="https://www.rki.de/EN/Home/homepage_node.html"> Robert Koch Institute </a> and part time consultant. #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-
+subtitle: PhD student in Computation, Cognition and Language at the University of Cambridge.
 profile:
   align: right
   image: profile_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Language Technology Lab (LTL)</p>
+    <p>Language Technology Lab</p>
     <p>Dept. of Theoretical & Applied Linguistics</p>
     <p>University of Cambridge</p>
 
@@ -18,8 +17,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am Auss, a first-gen immigrant from Iraq, cognitive scientist by training, sport enthusiast, and bassist. For the last couple of years, I have been working as a data scientist at the [Robert Koch Institute](https://www.rki.de/EN/Home/homepage_node.html) (RKI) since BC (before COVID-19) with an emphasis on digital epidemiolgy.
+I am Auss, a first-gen immigrant from Iraq, cognitive scientist by training, sport enthusiast, and bassist. Since October 2024, I am a PhD student with [Prof Nigel Collier](https://www.mmll.cam.ac.uk/nhc30) at the [Language Technology Lab](https://ltl.mmll.cam.ac.uk) at the University of Cambridge. There, I am exploring how large language models (LLMs) can be utilized for digital disease surveillance. I am specifically interested in LLMs' capability to help integrate various pieces of information like texts, maps, or mobility. Right now, I am looking into their capability to understand temporal relationships in structured data.
 
-At RKI, I have been working on early detection of infectious diseases using natural language processing and time series analysis. During the pandemic, I was heavily contributing to Germany's response against COVID-19. I was one of the founding members to develop Germany's first national surveillance system for intensive care unit capacities, the [DIVI-Intensivregister](https://www.intensivregister.de) working as a data scientist and data engineer. In 2022, I switched to the [Information Centre for International Health Protection](https://www.rki.de/EN/Content/Institute/DepartmentsUnits/ZIG/INIG/INIG_node.html) where I have been responsible to track international outbreak situations, using epidemic modelling and data analyses. In all positions, I was producing reports reports and analyses for political and medical stake holders. Outside of Germany, I worked on capacity building in digital epidemiology in Southern Africa, Central Asia, and soon in Southeast-Asia.
-
-Next to my position at RKI, I am involved with the [The Focus Group on AI for Health, a partnership of ITU and WHO](https://www.itu.int/en/ITU-T/focusgroups/ai4h/Pages/default.aspx) where I have been working as a topic group leader for outbreaks, working on standards for AI-based outbreak detection algorithms and on the working group for AI test specifications, helping other members of the focus group design and conduct tests for their AI systems.
+Before my PhD, I have been working as a data scientist at the [Robert Koch Institute](https://www.rki.de/EN/Home/homepage_node.html) (RKI) since BC (before COVID-19). There, I have been working on early detection of infectious diseases using natural language processing and time series analysis. During the pandemic, I was heavily contributing to Germany's response against COVID-19. I was in the founding team to develop Germany's first national surveillance system for intensive care unit capacities, the [DIVI-Intensivregister](https://www.intensivregister.de) working as a data scientist and data engineer. Later, I was responsible to track international outbreak situations, using epidemic modelling and data analyses. In all positions, I was producing reports and analyses for political and medical stake holders. Outside of Germany, I worked on capacity building in digital epidemiology in Southern Africa and Central Asia.
